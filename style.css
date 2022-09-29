@@ -129,8 +129,7 @@ h1{
     }
     .fullContainer{
         display: grid;
-        grid-template-columns: 450px 500px;
-        margin: 50px;   
+        grid-template-columns: 450px 500px;   
     }
     .topBox{
         text-align: left;
