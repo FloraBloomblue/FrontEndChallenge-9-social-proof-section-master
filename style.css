@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'League Spartan', sans-serif;;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+    background-image: url('images/bg-pattern-bottom-mobile.svg'), url('images/bg-pattern-top-mobile.svg');
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+}
+.fullContainer{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 50px;
+    margin: 100px;
+}
+.topBox{
+    width: 300px;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+}
+h1{
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 30px; 
+    color: hsl(300, 43%, 22%);
+}
+.topContent{
+    font-size:1rem;
+    font-weight: 500;
+    color: hsl(303, 10%, 53%);
+    line-height: 1.5rem;
+}
+.middleBox{
+    width: 300px;
+    background-color:hsl(0, 0%, 100%);
+}
+.comment{
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+.commentOne{
+    width:auto;
+    padding: 15px;
+    margin-bottom: 1.25rem; 
+}
+.commentTwo{
+    width:auto;
+    padding: 15px;
+    margin-bottom: 1.25rem;
+}
+.commentThree{
+    width:auto;
+    padding: 15px; 
+}
+.stars{
+    padding-bottom: 10px;
+}
+.lastBox{
+    width: 300px;
+}
+.testimonialOne{
+    width:auto;
+    padding: 30px;
+    background-color: black;
+    color: aliceblue ;
+    line-height: 1.3rem;
+    border-radius: 10px;
+    margin-bottom: 1.25rem;
+    background-color: hsl(300, 43%, 22%);
+}
+.testimonialTwo{
+    width:auto;
+    padding: 30px;
+    background-color: black;
+    color: aliceblue ;
+    line-height: 1.3rem;
+    border-radius: 10px;
+    margin-bottom: 1.25rem;
+    background-color: hsl(300, 43%, 22%);
+}
+.testimonialThree{
+    width:auto;
+    padding: 30px;
+    background-color: black;
+    color: aliceblue ;
+    line-height: 1.3rem;
+    border-radius: 10px;
+    margin-bottom: 1.25rem;
+    background-color: hsl(300, 43%, 22%);
+}
+.image img{
+    border-radius: 50%;
+    width: 15%;
+    float: left;
+    margin-right: 1.5rem;
+}
+.name{
+    color: hsl(0, 0%, 100%);
+    font-weight: 500; 
+}
+.Buyer{
+    color: hsl(333, 80%, 67%);
+    font-weight: 500;
+}
+.quote{
+    font-size: 0.93rem;
+    margin-top:1.5rem;
+}
+/* colors */
+.light-grayish-magenta{
+    background-color: hsl(300, 24%, 96%);
+}
+
+@media screen and (min-width:960px){
+    body{
+        background-image: url('images/bg-pattern-bottom-desktop.svg'), url('images/bg-pattern-top-desktop.svg');
+        background-position: right bottom, left top;
+        background-repeat: no-repeat, no-repeat; 
+    }
+    .fullContainer{
+        display: grid;
+        grid-template-columns: 450px 500px;
+        margin: 50px;   
+    }
+    .topBox{
+        text-align: left;
+        width: 350px;
+    }
+    h1{
+        margin-top:50px;
+    }
+    .topContent{
+        width: 380px;
+    }
+    .stars{
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+    .commentOne{
+        margin-top:50px;
+        width:350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin-bottom: 15px;   
+    }
+    .commentTwo{
+        width:350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin-bottom: 15px; 
+        margin-left: 50px;
+    }
+    .commentThree{
+        width:350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin-left: 100px; 
+    }
+    .lastBox{
+        width:960px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap:20px;
+    }
+    .testimonialOne{
+        height:150px;
+    }
+    .testimonialTwo{
+        margin-top: 15px;
+        height:150px;
+    }
+    .testimonialThree{
+        margin-top: 30px;
+        height:150px;
+    }
+
+}
